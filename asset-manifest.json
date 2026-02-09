@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/solar-panel-scanner-demo/static/css/main.1c1f88ed.css",
-    "main.js": "/solar-panel-scanner-demo/static/js/main.4d3b5c56.js",
+    "main.js": "/solar-panel-scanner-demo/static/js/main.96831eaf.js",
     "index.html": "/solar-panel-scanner-demo/index.html",
     "main.1c1f88ed.css.map": "/solar-panel-scanner-demo/static/css/main.1c1f88ed.css.map",
-    "main.4d3b5c56.js.map": "/solar-panel-scanner-demo/static/js/main.4d3b5c56.js.map"
+    "main.96831eaf.js.map": "/solar-panel-scanner-demo/static/js/main.96831eaf.js.map"
   },
   "entrypoints": [
     "static/css/main.1c1f88ed.css",
-    "static/js/main.4d3b5c56.js"
+    "static/js/main.96831eaf.js"
   ]
 }
