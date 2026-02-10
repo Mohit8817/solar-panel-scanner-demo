@@ -1,19 +1,26 @@
 {
-  "name": "chatbot-frontend",
+  "name": "solar-panel-scanner-demo",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://mohit8817.github.io/solar-panel-scanner-demo",
   "dependencies": {
+    "@ericblade/quagga2": "^1.12.1",
     "@zxing/browser": "^0.1.5",
-    "axios": "^1.6.7",
-    "bootstrap": "^5.3.3",
+    "bootstrap": "^5.3.8",
     "html5-qrcode": "^2.3.8",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.10.0",
+    "react-bootstrap": "^2.10.10",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
   },
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   },
   "browserslist": {
     "production": [
